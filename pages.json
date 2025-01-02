@@ -1,0 +1,80 @@
+{
+	"pages": [
+		{
+			"path" : "pages/login/login",
+			"style" : 
+			{
+				"navigationBarTitleText" : "登录"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/forget-password/forget-password",
+			"style": {
+				"navigationBarTitleText": "忘记密码"
+			}
+		},
+		{
+			"path" : "pages/index/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "首页"
+			}
+		},
+		{
+			"path": "pages/announcements/list",
+			"style": {
+				"navigationBarTitleText": "公告列表"
+			}
+		},
+		{
+			"path": "pages/announcements/detail",
+			"style": {
+				"navigationBarTitleText": "公告详情"
+			}
+		},
+		{
+			"path" : "pages/workbench/workbench",
+			"style" : 
+			{
+				"navigationBarTitleText" : "工作台"
+			}
+		},
+		{
+			"path": "pages/posts/detail",
+			"style": {
+				"navigationBarTitleText": "帖子详情"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#0239ff",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "static/tabbar/home.png",
+			"selectedIconPath": "static/tabbar/home-a.png"
+		},
+		{
+			"pagePath": "pages/workbench/workbench",
+			"text": "工作台",
+			"iconPath": "static/tabbar/gzt.png",
+			"selectedIconPath": "static/tabbar/gzt-a.png"
+		}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
